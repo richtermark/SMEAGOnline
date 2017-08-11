@@ -1,0 +1,36 @@
+<div id="footer-sec" class="hidden-xs ">
+  <div class="container clearfix  htmlcontenttop">
+
+    <div class="copyright">
+          
+{# Website Logo #}
+
+          {% if setting('site.logo') %}
+                <a  class="site-footer-logo" href="{{ path('homepage') }}"><img src="{{ asset(setting('site.logo')) }}"></a>
+          {% else %}
+                <a class="site-footer-logo" href="{{ path('homepage') }}">{{ setting('site.name', 'SMEAGOnline') }}</a>
+          {% endif %}
+{# Copyright information #}          
+
+
+    </div>
+    <div class="footer-container">
+{# Bottom navigation #}     
+
+{# Archive Course #}  
+
+      <a href="">课程存档</a>
+      {% if setting('site.copyright') %}
+        Course RIGHTS normalized <a href="/"> {{setting ( 'site.copyright')}} </a> all
+      {% endif %}
+       
+{# filing information #}   
+
+      {% if setting('site.icp') %}
+        <a href="http://www.miibeian.gov.cn/" target="_blank">{{ setting('site.icp') }}</a>
+      {% endif %}</p>
+      {{ setting('site.analytics')|raw }}
+    </div>
+  </div>
+
+</div>

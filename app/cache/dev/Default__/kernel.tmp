@@ -1,0 +1,45 @@
+<?php
+
+namespace 
+{
+    class AppKerne_ extends AppKernel
+    {
+        public function getCacheDir()
+        {
+            return '/Applications/MAMP/htdocs/smeagonline/app/cache/dev/Default__';
+        }
+
+        public function getRootDir()
+        {
+            return '/Applications/MAMP/htdocs/smeagonline/app';
+        }
+
+        public function getLogDir()
+        {
+            return '/Applications/MAMP/htdocs/smeagonline/app/logs';
+        }
+
+        protected function getContainerClass()
+        {
+            return 'appDevDebugProjectContaine_';
+        }
+
+        protected function buildContainer()
+        {
+            $container = parent::buildContainer();
+
+            // filter container's resources, removing reference to temp kernel file
+            $resources = $container->getResources();
+            $filteredResources = array();
+            foreach ($resources as $resource) {
+                if ((string) $resource !== __FILE__) {
+                    $filteredResources[] = $resource;
+                }
+            }
+
+            $container->setResources($filteredResources);
+
+            return $container;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "config" : {
+        "bin-dir" : "bin"
+    },
+    "name": "topxia/edusoho",
+    "description": "Edusoho",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Richtermark Baay",
+            "email": "tm.richtermarkbaay@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "*"
+    }
+
+}

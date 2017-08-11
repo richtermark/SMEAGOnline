@@ -1,0 +1,106 @@
+{% import "TopxiaWebBundle::macro.html.twig" as web_macro %}
+
+<div class="es-box es-course">
+  <H2> Current Programs </ h2>
+  
+
+  {% set count = 3 %}
+  {% set categoryId = null %}
+  {% set courses = data('LatestCourses',{'count':count, 'categoryId':categoryId}) %}
+    
+
+  {% if courses %}
+  {% set mode = mode|default('default') %}
+    <ul class="row">
+      
+
+      {% for course in courses %}
+        <-! Individual course layout ->
+        <li class="col-sm-6 col-md-4 es-course-list">
+          <div>
+            <div class="course-top">
+                  <img src="{{ file_path(course.largePicture, 'course-large.png') }}"  class="img-responsive thumb">
+            </div>
+            <div class="course-bottom">
+                  <h4>{{ course.title }}</h4>
+                  <p class="metas clearfix">
+                      {% if course.price > 0 %}
+                        <span class="price-num">¥{{ course.price }}</span>
+                      {% else %}
+                        <span class="price-num">免费</span>
+                      {% endif %}
+                  
+
+                    {% if course.showStudentNumType == 'opened' %}
+                      <span class="student-num">{{ course.studentNum }}人报名</span>
+                    {% endif %}
+                 </p>
+
+                    <span class="nickname">
+                      {% for teacher in course.teachers %}
+                        {{ web_macro.user_link(teacher, 'text-muted') }}
+                      {% endfor %}
+                    </span>
+            </div>
+            
+
+             <div class="mask">
+              <a href="{{ path('course_show', {id:course.id}) }}">
+                  {% set teacher = course.teachers|first %}
+                  <div class="teacher-info clearfix">
+                    <img class="img-circle pull-left" src="{{ file_path(teacher.smallAvatar, 'avatar.png') }}">
+                    <span>{{ teacher.nickname }}</span>
+                    <span>{{ teacher.title|plain_text(10) }}</span>
+                  </div>
+                  <p>{{ teacher.profile.about|plain_text(50) }}</p>
+                  <span class="iconfont icon-jiantou"></span>
+                  <h4 class="title">{{ course.title|plain_text(8) }}</h4>
+              </a>
+            </div>
+
+          </div>
+        </ Li>
+      {% endfor %}
+    </ul>
+
+
+  {% else %}
+      <Div class = "empty"> not publish courses </ div>
+  {% endif %}
+  <a class="more" href="{{ path('course_explore',{category:config.categoryId|default(null)}) }}">更多></a>
+</div>
+   
+2.2 Recommended teacher template
+Creating web / themes / blue / TopxiaWebBundle / Default / recommend-teacher.html.twig file as a template file.
+{% import "TopxiaWebBundle::macro.html.twig" as web_macro %}
+<div class="es-box teachers">
+      <H2> {{Teacher Profile}} </ h2>
+      
+
+      {% set teachers = data('RecommendTeachers',{'count':10}) %}
+      {% if teachers %}
+        <ul class="row">
+
+          {% for teacher in teachers %}
+            {% if teacher %} 
+              <li class="col-sm-6 col-md-4">
+                <div class="teachers-item">
+                  <a href="{{ path('user_show', {id:teacher.id}) }}">
+                   <img class="img-circle" src="{{ file_path(teacher.mediumAvatar, 'avatar.png') }}">
+                  </a>
+           
+                    <span>{{ web_macro.user_link(teacher) }}</span>
+                      <i> {{ teacher.title }}</i>
+                      <p> {{ teacher.about|plain_text(30) }}</p>
+                   </div>
+              </ Li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+     
+
+      {% else %}
+            <Div class = "empty"> teacher recommendation has not been set, in the management background settings. </ Div>
+      {% endif %}
+        <a class="more" href="{{ path('teacher') }}">更多></a>
+</div>

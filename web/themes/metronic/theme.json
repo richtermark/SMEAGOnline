@@ -1,0 +1,10 @@
+ {
+    "code": "metronic",
+    "name": "Metronic",
+    "author": "Richtermark Baay",
+    "version": "1.0.1",
+    "support_version": "8.0.0+",
+    "protocol": "3",
+    "date": "2017-6-8",
+    "thumb": "img/metronic.png"
+}
