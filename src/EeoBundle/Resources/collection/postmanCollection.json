@@ -1,0 +1,2942 @@
+{
+	"id": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+	"name": "EEO-API copy",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "95d4d153-0d97-27ac-105d-0d8320c129ef",
+			"name": "云盘相关接口",
+			"description": "",
+			"order": [
+				"a3bd4ae7-4732-8123-c85a-64493a865140",
+				"2da141b0-8dee-a20f-3824-f4b13c1e178a",
+				"f8e8f443-388b-fe89-9fd6-230c140796c9",
+				"1e4e0ea2-550c-8b4b-46f6-af0f5d2a72a2",
+				"0eee7a34-7305-c1b5-0c60-579a81b8629f",
+				"cf28ef4b-75d4-3cf5-fca7-0cc3c5f37da0",
+				"1cd16346-2d64-2fea-00b1-01afc9ce5ed6",
+				"f0bc4805-9cc9-311a-7f95-a9cf29d84e85",
+				"45a09d52-d11a-5f87-ea8e-b5d5e03a9fea"
+			],
+			"owner": 0,
+			"collectionId": "15228eed-77f4-bae1-6c25-152597a7e9e2"
+		},
+		{
+			"id": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b",
+			"name": "教室相关接口",
+			"description": "",
+			"order": [
+				"75b28c2a-5e3b-1369-7b00-b2d892442ae0",
+				"fc54db62-6543-72db-172d-7c6a033ad3f4",
+				"26e8ecea-f3ee-4ae8-21a4-620390e04dd6",
+				"f6c591cf-8f61-2c78-6695-009a54ecb101",
+				"b72c5eca-db5a-4036-4761-3469e38af6cf",
+				"b24cd191-6b08-a695-f97d-79dc3cfa927f",
+				"bfe7516a-1531-e0b2-2f71-76a973fb67c0",
+				"9f6e4f68-626e-ecd6-0de1-809b97b9b3de",
+				"0204c3c5-b829-56ac-9f0c-48db0c908f20",
+				"99b1eb74-1a24-87c0-f56c-b8254e253740",
+				"cb7c47b2-97f8-4758-f1e6-5ab374925f86",
+				"6fcb9839-8090-ede7-9ae1-6b6cc8403879",
+				"1b0e4c18-dcd8-4d31-2f7e-32cbf0a5612b",
+				"c21194c9-e125-0e3a-be73-8503ca5503fa",
+				"7c971f7b-92d7-df87-f8c1-5392efb7a27a",
+				"5c20448e-a853-a635-6c22-0af9afbaeb7a",
+				"d4eb01f3-633d-72e1-2576-3837c19fc4af",
+				"7dc5d359-5b6c-fb08-ccca-e4ded4da0c16",
+				"db28281b-d394-9946-3e55-3c0f3d1ab9b4",
+				"3446efa7-776c-fbbb-e4c0-07acc623d33a",
+				"77e80b7d-9e14-752f-6797-e2dc8e4f22e1",
+				"0ab9a6e9-efb2-ea1f-9c7c-914d6da0171b",
+				"8bd74e74-29fc-57de-9e8f-8b5e1f9063cf"
+			],
+			"owner": 0
+		},
+		{
+			"id": "ac89faa9-96d0-5474-ed76-492d4a8883ee",
+			"name": "用户相关接口",
+			"description": "",
+			"order": [
+				"5f9c0e4e-ce33-a8e1-8a25-fd0445454098",
+				"a939f9fd-fbaa-4303-4d96-528880f450f4",
+				"f0deeef4-9cb8-f665-1e7d-ca43f1fdb46f",
+				"e0559348-38cc-fcc8-7ff5-7d0f684f8000",
+				"a6317d37-48d3-e988-4cb3-e83f8b1f4585",
+				"79eab4a1-4cd1-4bec-f4a4-0d3d1db4c4ec",
+				"ff74c0af-0aa2-acbc-f722-b11c1b0c46df",
+				"119cd9fa-2894-2efe-a3c2-ca1ba873e2cf",
+				"c3eaecb1-2dd0-4b34-cab1-629c67e3e838",
+				"c1e00e52-3954-2e10-1964-ca99bd1657cf",
+				"22833185-ae09-88a8-42bf-2e2ea605171a",
+				"e28ace93-9a91-7d11-be3f-1d470f61b53b",
+				"3e65a0e4-1413-35f5-fc39-7a379f2b3062",
+				"6449df92-793a-00bc-22d1-ba080e478b9b"
+			],
+			"owner": 0
+		},
+		{
+			"id": "72f6417a-641b-aaf3-a106-f0834a646a09",
+			"name": "直播相关接口",
+			"description": "",
+			"order": [
+				"4b5403ce-c3f8-a38d-078c-466799a021b8",
+				"63589f13-235a-6ee5-1d4c-676ef27c73c4",
+				"7fddfa57-5f63-3573-e76f-2070c2f8fb8c"
+			],
+			"owner": 0,
+			"collectionId": "15228eed-77f4-bae1-6c25-152597a7e9e2"
+		}
+	],
+	"timestamp": 0,
+	"owner": 0,
+	"public": false,
+	"hasRequests": true,
+	"requests": [
+		{
+			"id": "0204c3c5-b829-56ac-9f0c-48db0c908f20",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=editCourseClass",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493364941",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1395039",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "className",
+					"value": "chinese",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "beginTime",
+					"value": "1493434330",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "endTime",
+					"value": "1493444330",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "teacherAccount",
+					"value": "18503160003",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "teacherName",
+					"value": "小李",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "folderId",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "record",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "live",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "replay",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500705877548,
+			"name": "修改课节信息",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "0ab9a6e9-efb2-ea1f-9c7c-914d6da0171b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=addCourseClassStudent",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493712683",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentAccount",
+					"value": "12345678912",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentName",
+					"value": "小贾",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classJson",
+					"value": "[1395045,1395044,1395043]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493713857078,
+			"name": "课程下多个课节添加学生",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "0eee7a34-7305-c1b5-0c60-579a81b8629f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=renameFile",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493372758",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "fileId",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "fileName",
+					"value": "课件2017",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500700930586,
+			"name": "重命名文件",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "119cd9fa-2894-2efe-a3c2-ca1ba873e2cf",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=addTeacher",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacherAccount",
+					"value": "23692341040",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacherName",
+					"value": "hubert",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Filedata",
+					"value": "@~/photo.jpg",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706819726,
+			"name": "添加老师",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "1b0e4c18-dcd8-4d31-2f7e-32cbf0a5612b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo13.test/partner/api/course.api.php?action=delCourseStudent",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493030859",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "1431",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identity",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentAccount",
+					"value": "18516980114",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493030932384,
+			"name": "课程下删除学生/ 旁听（单个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "1cd16346-2d64-2fea-00b1-01afc9ce5ed6",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=createFolder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493792469",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "747759",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderName",
+					"value": "tools",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493792631035,
+			"name": "创建文件夹",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "95d4d153-0d97-27ac-105d-0d8320c129ef"
+		},
+		{
+			"id": "1e4e0ea2-550c-8b4b-46f6-af0f5d2a72a2",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=uploadFile",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493372758",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "714013",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Filedata",
+					"value": "@~/file.txt",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500700863001,
+			"name": "上传文件",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "22833185-ae09-88a8-42bf-2e2ea605171a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getTempLoginKey",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492872344",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "18516988551",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifeTime",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706951948,
+			"name": "获取登录客户端密钥",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "26e8ecea-f3ee-4ae8-21a4-620390e04dd6",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=editCourse",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492792399",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "352861",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "22419",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "courseName",
+					"value": "Today is a good day",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "expiryTime",
+					"value": "1484811085",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500701379145,
+			"name": "编辑课程",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "2da141b0-8dee-a20f-3824-f4b13c1e178a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=getCloudList",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1494231322",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "123456",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500700827368,
+			"name": "获取指定文件夹下的文件夹及文件列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "3446efa7-776c-fbbb-e4c0-07acc623d33a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getClassMemberTime",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1494230842",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "536317",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1462139",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1494231112799,
+			"name": "获取上课中课节成员的时间",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "3e65a0e4-1413-35f5-fc39-7a379f2b3062",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getUserDeviceCheckInfo",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1494407873",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "18516900101",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706981909,
+			"name": "获取用户最新设备自检信息",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "45a09d52-d11a-5f87-ea8e-b5d5e03a9fea",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=delFolder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493792877",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "747759",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493792885148,
+			"name": "删除文件夹",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "95d4d153-0d97-27ac-105d-0d8320c129ef"
+		},
+		{
+			"id": "4b5403ce-c3f8-a38d-078c-466799a021b8",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=setClassVideoMultiple",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1494392466",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "523689",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classJson",
+					"value": "[{\"classid\":\"1419691\",\"record\":\"1\",\"live\":\"\",\"replay\":\"\"},{\"classid\":\"1419693\",\"record\":\"1\",\"live\":\"\",\"replay\":\"\"}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1494394405844,
+			"name": "课节 设置 录课 、直播、回放 （多个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "72f6417a-641b-aaf3-a106-f0834a646a09"
+		},
+		{
+			"id": "5c20448e-a853-a635-6c22-0af9afbaeb7a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=addClassStudentMultiple",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493726450",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "523689",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1419691",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identity",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isRegister",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentJson",
+					"value": "[{\"account\":\"23652342730\",\"name\":\"小丫\",\"password\":\"123456\"},{\"account\":\"23652342731\",\"name\":\"小白\",\"password\":\"123456\"}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493727711342,
+			"name": "课节下添加学生（多个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "5f9c0e4e-ce33-a8e1-8a25-fd0445454098",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=register",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1494407873",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "18516900101",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nickname",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706299124,
+			"name": "注册用户",
+			"description": "getTopFolderId",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "63589f13-235a-6ee5-1d4c-676ef27c73c4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getClassVideo",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493729726",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1395037",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493729930241,
+			"name": "课节查询直播、回放地址",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "72f6417a-641b-aaf3-a106-f0834a646a09"
+		},
+		{
+			"id": "6449df92-793a-00bc-22d1-ba080e478b9b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getDownloadUrl",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706991781,
+			"name": "获取ClassIn客户端下载地址",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "6fcb9839-8090-ede7-9ae1-6b6cc8403879",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo13.test/partner/api/course.api.php?action=addCourseStudent",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493030202",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "1431",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identity",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentAccount",
+					"value": "18516980114",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentName",
+					"value": "张老师",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493030941861,
+			"name": "课程下添加学生/ 旁听（单个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "75b28c2a-5e3b-1369-7b00-b2d892442ae0",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getCourseList",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492792399",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseStatus",
+					"value": "0",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "page",
+					"value": "2",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "perpage",
+					"value": "2",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500701193176,
+			"name": "获取课程列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "77e80b7d-9e14-752f-6797-e2dc8e4f22e1",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=modifyCourseTeacher",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493728253",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "523689",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacherAccount",
+					"value": "23692341119",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493728363144,
+			"name": "更换课程老师",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "79eab4a1-4cd1-4bec-f4a4-0d3d1db4c4ec",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getStudentCommentList",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492871152",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "315373",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentId",
+					"value": "126037",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492876329755,
+			"name": "获取学生评论列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [
+				{
+					"request": {
+						"id": "38a47279-512c-4802-8e59-b8aa71637255",
+						"description": "",
+						"method": "POST",
+						"headers": "Content-Type: application/x-www-form-urlencoded",
+						"dataMode": "urlencoded",
+						"data": [
+							{
+								"key": "SID",
+								"value": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "safeKey",
+								"value": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "timeStamp",
+								"value": "1491450921",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "courseId",
+								"value": "282609",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "studentId",
+								"value": "135987",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"rawModeData": "",
+						"url": "http://www.eeo.cn/partner/api/course.api.php?action=getStudentCommentList"
+					},
+					"id": "ed69244e-3969-7d1f-26bd-f4126eb3add6",
+					"name": "success",
+					"status": "OK",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": ""
+					},
+					"language": "html",
+					"previewType": "text",
+					"time": 109,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true",
+							"description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST",
+							"description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "1100",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Wed, 05 Apr 2017 08:49:11 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Keep-Alive",
+							"key": "Keep-Alive",
+							"value": "timeout=120, max=985",
+							"description": "Custom header"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apache",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "PHP/5.3.3",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"text": "\r\n\r\n{\"data\":[{\"student_account\":\"23692341053\",\"student_name\":\"123\",\"attendence\":\"27%\",\"total_class\":\"11\",\"on_class\":\"3\",\"course_list\":[{\"course_id\":\"282609\",\"course_name\":\"\\u6d4b\\u8bd5\\u6559\\u5ba4\"}],\"status\":\"\\u6b63\\u5728\\u670d\\u52a1\\u671f\",\"studentId\":\"135987\"},{\"student_account\":\"23692341070\",\"student_name\":\"\\u738b\\u96e8\\u7ae5\",\"attendence\":\"41%\",\"total_class\":\"17\",\"on_class\":\"7\",\"course_list\":[{\"course_id\":\"282609\",\"course_name\":\"\\u6d4b\\u8bd5\\u6559\\u5ba4\"},{\"course_id\":\"282609\",\"course_name\":\"\\u6d4b\\u8bd5\\u6559\\u5ba4\"}],\"status\":\"\\u6b63\\u5728\\u670d\\u52a1\\u671f\",\"studentId\":\"132045\"},{\"student_account\":\"23612343040\",\"student_name\":\"huanju\",\"attendence\":\"39%\",\"total_class\":\"31\",\"on_class\":\"12\",\"course_list\":[{\"course_id\":\"315373\",\"course_name\":\"\\u6d4b\\u8bd5\\u6559\\u5ba4\"},{\"course_id\":\"307025\",\"course_name\":\"123123\"},{\"course_id\":\"282609\",\"course_name\":\"\\u6d4b\\u8bd5\\u6559\\u5ba4\"},{\"course_id\":\"251483\",\"course_name\":\"\\u6d4b\\u8bd5\\u8bfe\\u7a0b2.10\"}],\"status\":\"\\u6b63\\u5728\\u670d\\u52a1\\u671f\",\"studentId\":\"126037\"}],\"error_info\":{\"errno\":1,\"error\":\"\\u7a0b\\u5e8f\\u6b63\\u5e38\\u6267\\u884c\"}}",
+					"rawDataType": "text",
+					"owner": 0
+				},
+				{
+					"request": {
+						"id": "52c52f51-cf3a-4500-8157-c4eb43654c30",
+						"description": "",
+						"method": "POST",
+						"headers": "Content-Type: application/x-www-form-urlencoded",
+						"dataMode": "urlencoded",
+						"data": [
+							{
+								"key": "SID",
+								"value": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "safeKey",
+								"value": "",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "timeStamp",
+								"value": "1491456300",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "courseId",
+								"value": "282609",
+								"type": "text",
+								"enabled": true
+							},
+							{
+								"key": "studentId",
+								"value": "135987",
+								"type": "text",
+								"enabled": true
+							}
+						],
+						"rawModeData": "",
+						"url": "http://www.eeo.cn/partner/api/course.api.php?action=getStudentCommentList"
+					},
+					"id": "7563472b-c9db-76f0-3e03-9030e6cc78ad",
+					"name": "success",
+					"status": "OK",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": ""
+					},
+					"language": "html",
+					"previewType": "text",
+					"time": 929,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true",
+							"description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+						},
+						{
+							"name": "Access-Control-Allow-Methods",
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET,POST",
+							"description": "Specifies the method or methods allowed when accessing the resource. This is used in response to a preflight request."
+						},
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "Keep-Alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "866",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 06 Apr 2017 05:25:17 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Keep-Alive",
+							"key": "Keep-Alive",
+							"value": "timeout=120, max=998",
+							"description": "Custom header"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "Apache",
+							"description": "A name for the server"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "PHP/5.3.3",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"text": "\r\n\r\n{\"data\":[{\"class_id\":\"1013817\",\"class_number\":\"NO.3\",\"star_level\":\"0\",\"comment\":\"\",\"class_time\":\"2017\\u5e7403\\u670831\\u65e5 16:00 \\u81f3 2017\\u5e7403\\u670831\\u65e5 16:30\",\"attend_time\":\"\",\"attend_status\":\"\\u7f3a\\u52e4\",\"class_status\":\"\\u8001\\u5e08\\u5956\\u52b10\\u6b21\"},{\"class_id\":\"1013815\",\"class_number\":\"NO.2\",\"star_level\":\"0\",\"comment\":\"\",\"class_time\":\"2017\\u5e7403\\u670824\\u65e5 16:00 \\u81f3 2017\\u5e7403\\u670824\\u65e5 16:30\",\"attend_time\":\"\",\"attend_status\":\"\\u7f3a\\u52e4\",\"class_status\":\"\\u8001\\u5e08\\u5956\\u52b10\\u6b21\"},{\"class_id\":\"1013813\",\"class_number\":\"NO.1\",\"star_level\":\"0\",\"comment\":\"\",\"class_time\":\"2017\\u5e7403\\u670817\\u65e5 16:00 \\u81f3 2017\\u5e7403\\u670817\\u65e5 16:30\",\"attend_time\":\"\",\"attend_status\":\"\\u7f3a\\u52e4\",\"class_status\":\"\\u8001\\u5e08\\u5956\\u52b10\\u6b21\"}],\"error_info\":{\"errno\":1,\"error\":\"\\u7a0b\\u5e8f\\u6b63\\u5e38\\u6267\\u884c\"}}",
+					"rawDataType": "text",
+					"owner": 0
+				}
+			],
+			"folder": "ac89faa9-96d0-5474-ed76-492d4a8883ee"
+		},
+		{
+			"id": "7c971f7b-92d7-df87-f8c1-5392efb7a27a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=delCourseStudentMultiple",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493726325",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identity",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentJson",
+					"value": "[\"18516900011\"]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493726334526,
+			"name": "课程下删除学生/ 旁听（多个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "7dc5d359-5b6c-fb08-ccca-e4ded4da0c16",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getCourseInfo",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493701629",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "458581",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493727735868,
+			"name": "获取课程信息",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "7fddfa57-5f63-3573-e76f-2070c2f8fb8c",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getWebcastUrl",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493901829",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "536317",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1432593",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500707006532,
+			"name": "获取EEO下 课程/课节的直播回放页面地址",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "8bd74e74-29fc-57de-9e8f-8b5e1f9063cf",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getClassMemberTimeDetails",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492925596",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "1418",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1419691",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500619906626,
+			"name": "获取课节下出勤成员的时间信息",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "99b1eb74-1a24-87c0-f56c-b8254e253740",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=delCourseClass",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493350512",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493366602409,
+			"name": "删除课节",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "9f6e4f68-626e-ecd6-0de1-809b97b9b3de",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=addCourseClassMultiple",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493026245",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "469383",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classJson",
+					"value": "[{\"className\":\"测试课-1\",\"beginTime\":1493026245,\"endTime\":1493036245,\"teacherAccount\":\"23692341090\",\"teacherName\":\"张一\",\"folderId\":714013,\"seatNum\":4},{\"className\":\"测课节-2\",\"beginTime\":1493026245,\"endTime\":1493036245,\"teacherAccount\":\"23692341090\",\"teacherName\":\"教师2\",\"folderId\":714013,\"seatNum\":6}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493026522283,
+			"name": "创建课节（多个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "a3bd4ae7-4732-8123-c85a-64493a865140",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=getFolderList",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493798252",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493798339600,
+			"name": "获取云盘文件夹列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "95d4d153-0d97-27ac-105d-0d8320c129ef"
+		},
+		{
+			"id": "a6317d37-48d3-e988-4cb3-e83f8b1f4585",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getStudentList",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "perpage",
+					"value": "10",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706740565,
+			"name": "获取学生列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "a939f9fd-fbaa-4303-4d96-528880f450f4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=editUserInfo",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "18516988551",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "nickname",
+					"value": "adair",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492793863335,
+			"name": "修改用户基本信息",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "ac89faa9-96d0-5474-ed76-492d4a8883ee"
+		},
+		{
+			"id": "b24cd191-6b08-a695-f97d-79dc3cfa927f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getCourseClass",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492921975",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "458581",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492925997169,
+			"name": "获取课节列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "b72c5eca-db5a-4036-4761-3469e38af6cf",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getUserCourseList",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1494468708",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "userAccount",
+					"value": "18516900100",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "beginTime",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "endTime",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500701392561,
+			"name": "获取用户课程列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "bfe7516a-1531-e0b2-2f71-76a973fb67c0",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=addCourseClass",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493350659",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "className",
+					"value": "数学-10",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "beginTime",
+					"value": "1493607694",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endTime",
+					"value": "1493609694",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacherAccount",
+					"value": "18503160005",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacherName",
+					"value": "李四",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "22418",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "seatNum",
+					"value": "6",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "record",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "live",
+					"value": "0",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "replay",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500703065755,
+			"name": "创建课节（单个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "c1e00e52-3954-2e10-1964-ca99bd1657cf",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=editTeacher",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492871773",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "st_id",
+					"value": "16615",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "teacherName",
+					"value": "zhang",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "Filedata",
+					"value": "@~/photo.png",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706910093,
+			"name": "编辑老师",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "c21194c9-e125-0e3a-be73-8503ca5503fa",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=addCourseStudentMultiple",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493725870",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identity",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "isRegister",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentJson",
+					"value": "[{\"account\":\"18516900012\",\"name\":\"小花同学\",\"password\":\"123456\"}]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493725913158,
+			"name": "课程下添加学生/旁听（多个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "c3eaecb1-2dd0-4b34-cab1-629c67e3e838",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=modifyTelephone",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "oldTelephone",
+					"value": "23692341021",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "18516988551",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706837565,
+			"name": "修改机构学生手机号",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "cb7c47b2-97f8-4758-f1e6-5ab374925f86",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getCourseStudent",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493725764",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "523689",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identity",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493725790622,
+			"name": "获取课程下学生/旁听",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "cf28ef4b-75d4-3cf5-fca7-0cc3c5f37da0",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=delFile",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493372758",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "fileId",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493373817420,
+			"name": "删除文件",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "95d4d153-0d97-27ac-105d-0d8320c129ef"
+		},
+		{
+			"id": "d4eb01f3-633d-72e1-2576-3837c19fc4af",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=delClassStudentMultiple",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1494410390",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "542163",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1474563",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "identity",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "studentJson",
+					"value": "[\"18516900100\"]",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1494410532243,
+			"name": "课节下删除学生（多个）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "db28281b-d394-9946-3e55-3c0f3d1ab9b4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getClassInfo",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493727979",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "490583",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1395045",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493728037903,
+			"name": "获取课节信息",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "e0559348-38cc-fcc8-7ff5-7d0f684f8000",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=modifyPasswordByTelephone",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "23692341030",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "md5pass",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492793928647,
+			"name": "修改用户密码（不提供原密码）",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "ac89faa9-96d0-5474-ed76-492d4a8883ee"
+		},
+		{
+			"id": "e28ace93-9a91-7d11-be3f-1d470f61b53b",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getLoginLinked",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "23692341020",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lifeTime",
+					"value": "",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "courseId",
+					"value": "332241",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "classId",
+					"value": "1227045",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706974445,
+			"name": "获取登录客户端链接",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "f0bc4805-9cc9-311a-7f95-a9cf29d84e85",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=renameFolder",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493792642",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "747759",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderName",
+					"value": "hello",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493792659145,
+			"name": "重命名文件夹",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "95d4d153-0d97-27ac-105d-0d8320c129ef"
+		},
+		{
+			"id": "f0deeef4-9cb8-f665-1e7d-ca43f1fdb46f",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=modifyPassword",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "telephone",
+					"value": "23692341020",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "oldMd5pass",
+					"value": "e10adc3949ba59abbe56e057f20f883e",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "md5pass",
+					"value": "e10adc3949ba59a",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492793876496,
+			"name": "修改用户密码",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "ac89faa9-96d0-5474-ed76-492d4a8883ee"
+		},
+		{
+			"id": "f6c591cf-8f61-2c78-6695-009a54ecb101",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=delCourse",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492925596",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseId",
+					"value": "1418",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492925995306,
+			"name": "删除课程",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "1ddbf52c-271f-9426-6f7a-fa5cd3c01b1b"
+		},
+		{
+			"id": "f8e8f443-388b-fe89-9fd6-230c140796c9",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/cloud.api.php?action=getTopFolderId",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1493798334",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493798359923,
+			"name": "获取顶级文件夹 id",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": [],
+			"folder": "95d4d153-0d97-27ac-105d-0d8320c129ef"
+		},
+		{
+			"id": "fc54db62-6543-72db-172d-7c6a033ad3f4",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=addCourse",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492792399",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "courseName",
+					"value": "Good Day",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "folderId",
+					"value": "22419",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "Filedata",
+					"value": "@~/photo.jpg",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "expiryTime",
+					"value": "1492795000",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500701231928,
+			"name": "创建课程",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		},
+		{
+			"id": "ff74c0af-0aa2-acbc-f722-b11c1b0c46df",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"url": "http://www.eeo.cn/partner/api/course.api.php?action=getTeacherList",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [
+				{
+					"key": "SID",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "safeKey",
+					"value": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "timeStamp",
+					"value": "1492793638",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "page",
+					"value": "1",
+					"type": "text",
+					"enabled": false
+				},
+				{
+					"key": "perpage",
+					"value": "10",
+					"type": "text",
+					"enabled": false
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1500706786910,
+			"name": "获取机构老师列表",
+			"description": "",
+			"collectionId": "2e62baa8-bcc8-f429-9990-35fe8d22e9bd",
+			"responses": []
+		}
+	]
+}

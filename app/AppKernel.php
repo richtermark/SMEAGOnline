@@ -78,6 +78,7 @@ class AppKernel extends Kernel implements PluginableHttpKernelInterface
             new Codeages\PluginBundle\CodeagesPluginBundle(),
             new AppBundle\AppBundle(),
             new ApiBundle\ApiBundle(),
+            new EeoBundle\EeoBundle(),
         );
 
         if (is_file($this->getRootDir().'/config/sentry.yml')) {

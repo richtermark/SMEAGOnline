@@ -1,0 +1,3 @@
+eeo_homepage:
+    path:     /
+    defaults: { _controller: EeoBundle:Default:index }

@@ -2,7 +2,7 @@ parameters:
     database_driver: pdo_mysql
     database_host: 127.0.0.1
     database_port: 8889
-    database_name: edusoho
+    database_name: elearning_smeagonline
     database_user: root
     database_password: 'root'
     mailer_transport: smtp
@@ -10,6 +10,6 @@ parameters:
     mailer_user: null
     mailer_password: null
     locale: zh_CN
-    secret: grnog1jmi884sgw80wsog0gsswoc4cs
-    webpack_base_url: http://smeagonline.local
+    secret: iwee5o0ygqgwsg4og0w44ocksk800c8
+    webpack_base_url: http://elearning.smeagonline.local
     user_partner: none
